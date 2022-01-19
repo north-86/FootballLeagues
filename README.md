@@ -1,2 +1,2 @@
 # FootballLeagues
-The program contains links to the websites of 16 popular football leagues.
+The program contains links to the websites of 12 popular football leagues.
