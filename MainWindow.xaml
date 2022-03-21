@@ -31,6 +31,7 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <Button x:Name="btn1" Grid.Column="0" Grid.Row="0" Click="Btn1_Click">Bundesliga</Button>
         <Button x:Name="btn2" Grid.Column="1" Grid.Row="0" Click="Btn2_Click">Serie A</Button>
@@ -44,5 +45,15 @@
         <Button x:Name="btn10" Grid.Column="1" Grid.Row="2" Click="Btn10_Click">Brasileiro Serie A</Button>
         <Button x:Name="btn11" Grid.Column="2" Grid.Row="2" Click="Btn11_Click">Super Lig</Button>
         <Button x:Name="btn12" Grid.Column="3" Grid.Row="2" Click="Btn12_Click">Premiership</Button>
+        <Grid Grid.Row="3" Grid.ColumnSpan="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btn13" Grid.Column="0" Click="btn13_Click">Champions League</Button>
+            <Button x:Name="btn14" Grid.Column="1" Click="btn14_Click">Europa League</Button>
+            <Button x:Name="btn15" Grid.Column="2" Click="btn15_Click">Copa Libertadores</Button>
+        </Grid>
     </Grid>
 </Window>

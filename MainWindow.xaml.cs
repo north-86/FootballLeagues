@@ -142,5 +142,35 @@ namespace FootballLeagues
             };
             Process.Start(info);
         }
+
+        private void btn13_Click(object sender, RoutedEventArgs e)
+        {
+            var url = "https://ru.uefa.com/uefachampionsleague/";
+            var info = new ProcessStartInfo(url)
+            {
+                UseShellExecute = true,
+            };
+            Process.Start(info);
+        }
+
+        private void btn14_Click(object sender, RoutedEventArgs e)
+        {
+            var url = "https://ru.uefa.com/uefaeuropaleague/";
+            var info = new ProcessStartInfo(url)
+            {
+                UseShellExecute = true,
+            };
+            Process.Start(info);
+        }
+
+        private void btn15_Click(object sender, RoutedEventArgs e)
+        {
+            var url = "https://www.conmebol.com/";
+            var info = new ProcessStartInfo(url)
+            {
+                UseShellExecute = true,
+            };
+            Process.Start(info);
+        }
     }
 }
